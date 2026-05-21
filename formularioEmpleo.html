@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h1>FORMULARIO DE EMPLEO</h1>
+        <label for="">nombres y apellidos</label>
+        <input type="text" id="nombreCompleto" name="nombre" placeholder="Ej: Juan Ricardo Cruz Alvarez">
+        <br><br>
+        <label for="CorreoUsuario"> Correo electronico</label>
+        <input type="text" id="CorreoUsuario" name="email" placeholder="Coreo@ejemplo.com" required>
+        <br><br>
+    </form>
+    <form action="">
+        <label for="fecha">Fecha_disponible </label>
+        <input type="date" name="Fecha_disponible" id="fecha">
+        <br><br>
+    </form>
+    <form action="">
+        <label for="NIVEL DE ESTUDIOS"></label>
+        <select name="estudios" id="estudios">
+            <option value="">SELECCIONE ESTUDIO</option>
+            <option value="Bachiller">Bachiller</option>
+            <option value="pregrado">pregrado</option>
+            <option value="grado">grado</option>
+            <option value="posgrado">posgrado</option>
+            <option value="maestria">maestria</option> 
+        </select>
+        <br><br>
+    </form>
+    <form action="">
+        <label for="años">años Experiencia</label>
+        <input type="number" id="años" name="años" min="0" max="50">
+        <br><br>
+        <label for="">Lenguajes de programacion</label>
+        <input type="checkbox" id="Lenguajes" name="Lenguajes">
+        <label for="Lenguajes">python</label>
+        <input type="checkbox" id="Lenguajes" name="Lenguajes">
+
+        <label for="Lenguajes">java</label>
+        <input type="checkbox" id="Lenguajes" name="Lenguajes">
+
+        <label for="Lenguajes">javaScript</label>
+        <br>
+        <textarea name="mensaje" id="mensaje" rows="4"
+            cols="50" placeholder="carta de presentacion">
+        </textarea> <br>
+        <button type="submit"> Enviar formilario de empleo</button>
+
+
+    </form>
+</body>
+</html>
