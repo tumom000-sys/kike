@@ -1,0 +1,14 @@
+*{
+    font-size: 1.2rem;
+}
+.tarjeta{
+    
+    background-color: rgb(236, 189, 81);
+    border: 5px solid black;    
+    padding: 40px;
+    margin: 4px 10px 40px 10px;
+    border-radius: 20px;
+}
+p{
+    color: antiquewhite;
+}
