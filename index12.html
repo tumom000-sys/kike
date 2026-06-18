@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCSS</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100 p-8"> 
+    <nav class="bg-white shadow-md rounder-lg p-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+        <div class="text-2x1 font-bold text-blue-600 text-center md:text-left">milogo</div>
+        <ul class="flex flex-col md:flex-row gap-4 md:gap-8 text-gray-600 font-medium">
+            <li><a href="#" class="hover:text-blue-600">inicio</a></li>
+            <li><a href="#" class="hover:text-blue-600"></a>productos</li>
+            <li><a href="#" class="hover:text-blue-600"></a>contacto</li>
+        </ul>
+        <button class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounder-full text-sm font-semibold transition w-full md:w-auto">Login</button>w
+    </nav>
+    <a href="#"class="inline-block bg-blue-600 hover:bg-blue-800 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-200 ease-in-out">Ir a otra pagina</a>
+
+  <div class="max-w-sm mx-auto mt-8 bg-white rounded-xl shadow-lg overflow-hidden">
+    <img src="https://picsum.photos/400/200" alt="imagen"class="w-full h-48 object-cover">
+    <div class="p-6">
+        <h3 class="text-2x1 font-bold text-gray-800">imagen aleatoria para la targeta</h3>
+        <p class="text-gray-500 mt-2 text-sm">una descripcion cualquiera para la imagen</p>
+        <div class="mt-4 flex items-center justify-between">
+            <span class="text-2x1 font-bold text-green-600">$99.99</span>
+            <button class="bg-indigo-500 hover:bi-indigo-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition">Añadir al carrito</button>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
